@@ -7,7 +7,6 @@ group :test, :development do
   gem "capybara"
   gem 'shoulda-matchers'
   gem 'factory_girl_rails'
-  gem 'sqlite3'
   gem 'pg'
 end
 
