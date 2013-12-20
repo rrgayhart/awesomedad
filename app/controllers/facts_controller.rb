@@ -1,8 +1,11 @@
 class FactsController < ApplicationController
   before_action :set_fact, only: [:show, :edit, :update, :destroy]
 
-  # GET /facts
-  # GET /facts.json
+
+  def home
+
+  end
+
   def index
     @facts = Fact.all
   end
