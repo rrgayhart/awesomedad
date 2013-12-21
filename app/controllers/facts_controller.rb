@@ -3,7 +3,7 @@ class FactsController < ApplicationController
 
 
   def home
-
+    @fact = Fact.random_generator
   end
 
   def index
