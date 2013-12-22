@@ -1,5 +1,7 @@
 class FactsController < ApplicationController
   before_action :set_fact, only: [:show, :edit, :update, :destroy]
+  before_action :require_login, :except => :home
+  before_action :only_admin, :except => :home
 
 
   def home

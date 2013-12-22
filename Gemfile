@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 gem 'rails', '4.0.1'
 gem 'foundation-rails'
+gem 'sorcery'
 
 group :test, :development do
   gem 'rspec-rails', '~> 3.0.0.beta'
