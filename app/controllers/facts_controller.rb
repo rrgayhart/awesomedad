@@ -3,7 +3,11 @@ class FactsController < ApplicationController
 
 
   def home
-    @fact = Fact.random_generator
+    if Fact.all.any?
+      @fact = Fact.random_generator
+    else
+      render 'error'
+    end
   end
 
   def index
