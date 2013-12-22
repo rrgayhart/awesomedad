@@ -23,7 +23,7 @@ your own heroku site! (don't forget to seed the database on heroku)
 #####Setting Up Locally
 
 1. Clone the repository.
-  `https:'
+  `https://github.com/rrgayhart/awesomedad.git`
 2. Move into that directory.
   `cd awesomedad`
 3. Install gem dependencies.
@@ -61,4 +61,4 @@ rake db:test:purge
 
 ###Pictures
 
-![PivotalTracker Screenshot](/demo/story.png)
+![Dadfact](/app/assets/images/dadfact.jpg)
