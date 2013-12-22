@@ -16,7 +16,7 @@
   - To keep the display uniform and pretty, be sure to size your images to be square 500px by 500px
 2. Access the seeds.rb, and using the format for my dad facts, add your own dad facts and link the related pictures.
 3. We used [Zurb Foundation](http://foundation.zurb.com/develop/download.html) to generate the styling for the site - you can access my overwrites in the `added_styles.css.scss` file in the `\app\assets` directory.
-4. Precompile your assets and create 
+4. [Precompile your assets](https://devcenter.heroku.com/articles/rails-asset-pipeline) and create 
 your own heroku site! 
 
 #####Setting Up Locally
