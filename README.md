@@ -3,7 +3,7 @@
 <hr>
 
 ### See how awesome my dad is:
-###[**awesomedad Production Link**](http://fourth-meal-group7.herokuapp.com)
+###[**awesomedad Production Link**](http://awesomedad.herokuapp.com/)
 
 <hr>
 ###Or install awesomedad and make one for your own dad!
