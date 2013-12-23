@@ -1,7 +1,7 @@
 class FactsController < ApplicationController
   before_action :set_fact, only: [:show, :edit, :update, :destroy]
-  before_action :require_login, :except => :home
-  before_action :only_admin, :except => :home
+  before_action :require_login, except: [:home, :show]
+  before_action :only_admin, except: [:home, :show]
 
 
   def home
@@ -12,13 +12,13 @@ class FactsController < ApplicationController
     end
   end
 
-  def index
-    @facts = Fact.all
+  def show
+    @fact = Fact.random_generator
+    render(:partial => @fact)
   end
 
-  # GET /facts/1
-  # GET /facts/1.json
-  def show
+  def index
+    @facts = Fact.all
   end
 
   # GET /facts/new
